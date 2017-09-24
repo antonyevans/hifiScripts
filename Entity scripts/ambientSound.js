@@ -24,8 +24,9 @@
 (function(){
     //  This sample clip and range will be used if you don't add userData to the entity (see above)
     var DEFAULT_RANGE = 100;
-    var DEFAULT_URL = "https://raw.githubusercontent.com/antonyevans/highfidelityassets/master/sounds/ABBA-Dancing%20Queen.mp3";
+    var DEFAULT_URL = "https://www.soundjay.com/nature/rain-01.wav";
     var DEFAULT_VOLUME = 1.0;
+    var DONOTHING =1;
 
     var DEFAULT_USERDATA = {
         soundURL: DEFAULT_URL,
