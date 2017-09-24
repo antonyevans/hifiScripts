@@ -31,7 +31,7 @@
         soundURL: DEFAULT_URL,
         range: DEFAULT_RANGE,
         maxVolume: DEFAULT_VOLUME,
-        disabled: true,
+        disabled: false,
         grabbableKey: { wantsTrigger: true },
     };
 
