@@ -13,7 +13,7 @@
 
     var _this = this;
     _this.clickDownOnEntity = function(entityID, event){
-            debugPrint("I was clicked!");
+            debugPrint("I was clicked again!");
         }
 
 })
