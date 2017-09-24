@@ -24,7 +24,7 @@
 (function(){
     //  This sample clip and range will be used if you don't add userData to the entity (see above)
     var DEFAULT_RANGE = 100;
-    var DEFAULT_URL = "http://prem1.di.fm:80/chilloutdreams?f7b3c9f37c4af7232580def1";
+    var DEFAULT_URL = "http://hifi-content.s3.amazonaws.com/ken/samples/forest_ambiX.wav";
     var DEFAULT_VOLUME = 1.0;
     var DONOTHING =1;
 
