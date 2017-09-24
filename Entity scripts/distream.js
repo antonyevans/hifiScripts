@@ -11,6 +11,6 @@
         }
     }
     
-    debugPrint("able to write to debugger")
+    debugPrint("able to write to debugger");
 
 })
