@@ -4,9 +4,16 @@
 
 (function(){
     
+    var WANT_DEBUG = false;
+    function debugPrint(string) {
+        if (WANT_DEBUG) {
+            print("ambientSound | " + string);
+        }
+    }
+
     var _this = this;
     _this.clickDownOnEntity = function(entityID, event){
-            print("I was clicked!");
+            debugPrint("I was clicked!");
         }
 
 })
