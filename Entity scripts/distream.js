@@ -4,13 +4,9 @@
 
 (function(){
     
-    var WANT_DEBUG = true;
-    function debugPrint(string) {
-        if (WANT_DEBUG) {
-            print("distream | " + string);
+    var _this = this;
+    _this.clickDownOnEntity = function(entityID, event){
+            print("I was clicked!");
         }
-    }
-    
-    debugPrint("able to write to debugger");
 
 })
