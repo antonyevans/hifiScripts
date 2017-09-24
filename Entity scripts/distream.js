@@ -4,7 +4,7 @@
 
 (function(){
     
-    var WANT_DEBUG = false;
+    var WANT_DEBUG = true;
     function debugPrint(string) {
         if (WANT_DEBUG) {
             print("ambientSound | " + string);
